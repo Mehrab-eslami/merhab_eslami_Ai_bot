@@ -5,12 +5,13 @@ app = Flask(__name__)
 
 TEMPLATE = '''
 <!DOCTYPE html>
-<html>
+<html lang="fa" dir="rtl">
 <head>
-    <title>پنل مدیریت چت‌بات</title>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="fa">
+    <title>پنل مدیریت چت‌بات</title>
     <style>
-        body { font-family: sans-serif; direction: rtl; margin: 20px; background: #f5f5f5; }
+        body { font-family: Tahoma, sans-serif; direction: rtl; margin: 20px; background: #f5f5f5; }
         .msg { padding: 10px; margin-bottom: 10px; border-radius: 5px; background: #fff; box-shadow: 0 0 5px #ccc; }
         .user { color: blue; }
         .bot { color: green; }

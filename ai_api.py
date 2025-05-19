@@ -10,5 +10,5 @@ def ask_gpt(prompt):
     try:
         response = requests.post(url, json=data, headers=headers)
         return response.json().get("response", "متأسفم، پاسخی دریافت نشد.")
-    except Exception as e:
+    except Exception:
         return "خطا در ارتباط با هوش مصنوعی."

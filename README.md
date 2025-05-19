@@ -1,8 +1,8 @@
-# ChatGPT Telegram Bot + Admin Panel
+# ChatGPT Telegram Bot + Admin Panel (نسخه اصلاح‌شده)
 
 ✅ ربات تلگرام با پاسخ هوش مصنوعی (GPT 3.5 via Aivix API)  
 ✅ ذخیره پیام‌ها در دیتابیس  
-✅ پنل مدیریت پیام‌ها (تحت وب)
+✅ پنل مدیریت پیام‌ها (تحت وب با پشتیبانی از فارسی)
 
 ## اجرای ربات
 ```bash
